@@ -1,0 +1,93 @@
+body {
+  font-family: "SF Pro Display", sans-serif;
+  margin: 0;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: #f8f3f4;
+  justify-content: space-between;
+  color: #fafafa;
+  padding: 30px 80px;
+}
+button {
+  outline: none;
+}
+.logo {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #18bcee;
+}
+.btn-cart {
+  background: #18bcee;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+  cursor: pointer;
+}
+.btn-cart:hover {
+  background-color: transparent;
+  border-color: #18bcee;
+  color: #18bcee;
+}
+.btn-cart,
+.logo {
+  align-self: center;
+}
+.products {
+  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: 1fr;
+  padding: 40px 80px;
+  justify-content: space-between;
+}
+p {
+  margin: 0 0 5px 0;
+}
+.product-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.product-item:hover {
+  box-shadow: 0px 0px 20px rgb(150, 150, 150);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.desc {
+  border: 1px solid #c0c0c040;
+  padding: 15px;
+}
+.buy-btn {
+  margin-top: 5px;
+  background: #18bcee;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+  cursor: pointer;
+}
+.buy-btn:hover {
+  background-color: transparent;
+  border-color: #81cee6;
+  color: #81cee6;
+}
